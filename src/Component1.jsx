@@ -1,11 +1,16 @@
+import { motion } from 'framer-motion';
 
-function Combonent() {
-    return (
-      <div className='flex gap-1 justify-start'>
-                    <a href="mailto:harshavengala8@gmail.com" className="text-twitter px-4 py-1 bg-white font-mono font-medium text-lg rounded-l-full">Resume</a>
-                    <a href="https://drive.google.com/file/d/117_dh6fHTXicA2rNmC4u4IOSglFdmtBU/view?usp=sharing" className="text-white py-1 px-4 bg-black font-mono font-medium text-lg rounded-r-full">Contact</a>
-      </div>
-    );
-  }
-  
-  export default Combonent;
+const MyComponent = () => {
+  return (
+    <motion.div
+      initial={{ y: '-500%', opacity: 0 }}
+      animate={{ y: '100%', opacity: 1 }}
+      transition={{ duration: 2,delay:1, ease: 'easeOut' }}
+      className='px-4 py-2 mt-20 font-mono text-white bg-blue-700 rounded-full'
+    >
+      Namasthe! nenu mee GUNA BHA!
+    </motion.div>
+  );
+}
+
+export default MyComponent;

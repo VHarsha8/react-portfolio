@@ -1,16 +1,13 @@
 import React from 'react';
-import Portfolio from './Portfolio';
-import Combonent from './Component1';
+import GradientPortfolio from './Gradientportfolio'
 
 
 
 
 function App() {
   return (
-    <div className="App md:w-[700px] md:px-0 px-10  flex flex-col justify-start   mx-auto">
-      <Portfolio /><br></br>
-      <Combonent />
-      
+    <div>
+        <GradientPortfolio />
     </div>
   );
 }

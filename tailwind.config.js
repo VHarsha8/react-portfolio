@@ -8,8 +8,10 @@ module.exports = {
       colors: {
         twitter: '#15202B',
       },
+      fontFamily: {
+        bebas: ['Bebas Neue', 'cursive'],  // Add your Bebas Neue font here
+      },
     },
   },
   plugins: [],
 }
-

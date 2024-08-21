@@ -1,6 +1,59 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.char {
+  transform: translateY(115px);
+  transition: transform .5s;
+}
+
+
+.clip-path-polygon {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+
 body {
     @apply bg-twitter; /* Replace 'twitter' with your desired Tailwind color */
+  }  
+
+  .boxxx{
+    width:50vw;
+    height:50vh;
+    background-image:repeating-linear-gradient(45deg, red, red 30px, blue 30px, blue 40px);
+
+
   }
+  
+  .boxxx{
+    width : 400px;
+    height:400px;
+    margin-top:50px;
+   
+    //border-radius: 50%;
+   
+    /* background-image:repeating-linear-gradient(90deg,red 35%,blue 50%); */
+    background-image:repeating-radial-gradient(closest-side at 100px 100px ,darkorange 30%,yellow 60%);
+
+  }
+
+  .gradient{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    margin:15px;
+
+  }
+
+
+  .gradient--one{
+    background-image: conic-gradient(from 45deg, red,blue);
+  }
+  .gradient--two{
+    background-image: conic-gradient(red,blue);
+  }
+  .gradient--three{
+    background-image: conic-gradient(red,blue,yellow,green);
+  }
+
