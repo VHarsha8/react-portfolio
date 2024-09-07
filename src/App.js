@@ -1,5 +1,11 @@
 import React from 'react';
-import GradientPortfolio from './Gradientportfolio'
+import OliurGradient from './OliurGradient';
+import CapsuleGradient from './Capsule';
+
+
+
+
+
 
 
 
@@ -7,7 +13,12 @@ import GradientPortfolio from './Gradientportfolio'
 function App() {
   return (
     <div>
-        <GradientPortfolio />
+         <CapsuleGradient />
+         <OliurGradient />
+
+
+        
+         
     </div>
   );
 }

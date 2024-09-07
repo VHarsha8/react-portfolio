@@ -15,7 +15,7 @@
 
 
 body {
-    @apply bg-twitter; /* Replace 'twitter' with your desired Tailwind color */
+    @apply bg-darkgreybackground; /* Replace 'twitter' with your desired Tailwind color */
   }  
 
   .boxxx{
@@ -56,4 +56,55 @@ body {
   .gradient--three{
     background-image: conic-gradient(red,blue,yellow,green);
   }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .border-gradient {
+    background: conic-gradient(
+      from 0deg,
+      #ff0052,
+      #ffd700,
+      #00ff00,
+      #00ffff,
+      #0000ff,
+      #ff00ff,
+      #ff0052
+    );
+    animation: rotate 5s linear infinite;
+  }
+  
+
+
+
+
+@layer utilities {
+  /* Act as a border */
+  .card-wrapper {
+    @apply relative  overflow-hidden rounded-2xl bg-gradient-to-b from-slate-700 to-slate-800;
+  }
+
+  /* Gradient */
+  .card-wrapper::before {
+    background: conic-gradient(
+      #FFC0CB 20deg,
+      transparent 80deg
+    );
+
+    @apply absolute  top-[-25%] left-[-25%] h-[150%] w-[150%] animate-border-spin   content-[''];
+  }
+
+  /* Body */
+  .card-content {
+    @apply absolute left-[2px] top-[2px]   h-[calc(100%-3px)] w-[calc(100%-3px)] rounded-2xl bg-gradient-to-b from-slate-700 to-slate-800;
+  }
+}
+
+
 
