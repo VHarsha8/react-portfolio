@@ -14,12 +14,7 @@ function Epistemicon() {
         {
             url: 'MODELEXPO.jpg'
         },
-        {
-            url: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80'
-        },
-        {
-            url: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80'
-        },
+        
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -64,7 +59,7 @@ function Epistemicon() {
     }, [currentIndex]);
 
     return (
-        <div className='md:max-w-[1400px]  h-[400px] md:h-[680px] w-full m-auto  relative group py-16 px-4 overflow-hidden'>
+        <div className='md:max-w-[1400px]  h-[400px] md:h-[680px] w-full m-auto  relative group pb-16 px-4 overflow-hidden'>
             {/* Slide container with snapping */}
             <div
                 ref={slideRef}

@@ -38,6 +38,7 @@ module.exports = {
         pearl:'#f7f7f7',
         ivory:'#f7f6e4',
         cream:'#f9f4e1',
+        oliurblue:'#0045d9',
 
       },
       fontFamily: {

@@ -15,7 +15,7 @@
 
 
 body {
-    @apply bg-darkgreybackground; /* Replace 'twitter' with your desired Tailwind color */
+    @apply bg-pearl; /* Replace 'twitter' with your desired Tailwind color */
   }  
 
   .boxxx{
@@ -102,7 +102,7 @@ body {
 
   /* Body */
   .card-content {
-    @apply absolute left-[2px] top-[2px]   h-[calc(100%-3px)] w-[calc(100%-3px)] rounded-2xl bg-gradient-to-b from-slate-700 to-slate-800;
+    @apply absolute left-[2px] top-[2px]   h-[calc(100%-3px)] w-[calc(100%-3px)] rounded-2xl bg-gradient-to-b from-blue-950 to-blue-900;
   }
 }
 
