@@ -4,7 +4,10 @@ function Footer(){
                 <div className="flex flex-col items-start justify-start h-full gap-4 p-6 border md:w-1/2 md:p-10 ">
                           <div className="flex items-center justify-center">
                             <img src="location.svg " className="w-12"></img>
+                            <a href="https://maps.app.goo.gl/J6xyoMU2tPoFzV7y7" target="_blank">
                             <h1 className="text-lg font-medium font-poppins">Andhra Loyola Institution of Engineering and Technology</h1>
+
+                            </a>
                           </div>  
                           <div className="flex items-center justify-center gap-2">
                             <img src="Calendar.svg " className="w-12"></img>
