@@ -1,6 +1,6 @@
 function Venue(){
     return(
-        <div className="container flex items-center justify-center px-16 pb-24 mx-auto">
+        <div className="container flex flex-col items-center justify-center px-16 pb-24 mx-auto md:flex-row">
                  <div className="flex flex-col items-center justify-center">
                          <h1 className="text-4xl font-medium font-poppins ">Venue Of Events</h1>
                             <br />

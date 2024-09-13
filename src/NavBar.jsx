@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="container flex items-center justify-between px-6 py-6 mx-auto md:px-16">
+    <nav className="container flex items-center justify-between px-6 py-6 mx-auto md:px-6">
       <div className="flex items-center justify-center text-2xl tracking-wider md:text-3xl font-AmericanCaptainMdEY">
         EPISTEMICON
       </div>
@@ -16,11 +16,11 @@ const Navbar = () => {
       {/* Hamburger Menu Icon */}
       <div className="md:hidden">
         <button className="focus:outline-none" onClick={toggleMenu}>
-          <div className={`relative w-8 h-8 flex gap-2 flex-col justify-center items-center`}>
+          <div className={`relative w-8 h-8 flex gap-[9px] flex-col justify-center items-center`}>
             {/* Line 1 */}
-            <span className={`block w-8 h-1 bg-gray-800 transform transition-transform duration-300 ${isOpen ? "rotate-45 translate-y-1.5" : ""}`}></span>
+            <span className={`block w-8 h-[2px] bg-gray-800 transform transition-transform duration-300 ${isOpen ? "rotate-45 translate-y-1.5" : ""}`}></span>
             {/* Line 2 */}
-            <span className={`block w-8 h-1 bg-gray-800 transform transition-transform duration-300 ${isOpen ? "-rotate-45 -translate-y-1.5" : ""}`}></span>
+            <span className={`block w-8 h-[2px] bg-gray-800 transform transition-transform duration-300 ${isOpen ? "-rotate-45 -translate-y-1.5" : ""}`}></span>
           </div>
         </button>
       </div>

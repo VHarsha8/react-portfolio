@@ -133,5 +133,10 @@ body {
   src: url('./fonts/MarvelRegular-Dj83.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Vogue';
+  src: url('./fonts/Vogue.ttf') format('truetype');
+}
+
 
 
