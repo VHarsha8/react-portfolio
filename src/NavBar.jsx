@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="container flex items-center justify-between px-6 py-6 mx-auto md:px-6">
+    <nav className="fixed z-50 flex items-center justify-between w-full px-6 py-4 border border-b bg-pearl md:px-10">
       <div className="flex items-center justify-center text-2xl tracking-wider md:text-3xl font-AmericanCaptainMdEY">
         EPISTEMICON
       </div>
@@ -27,17 +27,17 @@ const Navbar = () => {
 
       {/* Menu for larger screens */}
       <div className="items-center justify-center hidden gap-4 md:flex">
-        <h1 className="text-xl font-medium font-poppins">About</h1>
-        <a href="#" className="flex items-center justify-center px-3 py-2 font-medium text-white rounded-lg font-poppins bg-oliurblue">
-          Get Started
+        <h1 className="text-lg font-medium font-poppins">About</h1>
+        <a href="#" className="flex items-center justify-center px-3 py-2 text-sm font-medium text-white bg-black rounded-lg font-poppins">
+          Learn More
         </a>
       </div>
 
       {/* Dropdown Menu for small screens */}
       <div className={`absolute top-16 left-0 w-full bg-white p-6 z-10 flex flex-col space-y-4 items-center transform transition-transform duration-300 md:hidden ${isOpen ? "translate-x-0" : "-translate-x-full"}`}>
         <h1 className="text-xl font-medium font-poppins">About</h1>
-        <a href="#" className="flex items-center justify-center px-3 py-2 font-medium text-white rounded-lg font-poppins bg-oliurblue">
-          Get Started
+        <a href="#" className="flex items-center justify-center px-3 py-2 font-medium text-white bg-black rounded-lg font-poppins">
+          Learn More
         </a>
       </div>
     </nav>

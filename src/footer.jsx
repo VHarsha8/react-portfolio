@@ -1,27 +1,39 @@
 function Footer(){
     return(
-        <div className="w-full   h-[500px] flex flex-col md:+flex-row md:justify-center md:items-center bg-ivory">
-                <div className="flex flex-col items-start justify-start h-full gap-4 p-6 border md:w-1/2 md:p-10 ">
-                          <div className="flex items-center justify-center">
-                            <img src="location.svg " className="w-12"></img>
-                            <a href="https://maps.app.goo.gl/J6xyoMU2tPoFzV7y7" target="_blank">
-                            <h1 className="text-lg font-medium font-poppins">Andhra Loyola Institution of Engineering and Technology</h1>
+        <footer className="w-full h-[400px] px-10 py-6 md:py-0  bg-darkgreybackground md:gap-0 gap-6  md:w-full grid md:grid-cols-2 justify-center items-center ">
+              <div className="grid place-items-center rounded-2xl ">
 
-                            </a>
-                          </div>  
-                          <div className="flex items-center justify-center gap-2">
-                            <img src="Calendar.svg " className="w-12"></img>
-                            <h1 className="text-lg font-medium font-poppins">28th SEPTEMBER 2024</h1>
-                          </div>  
-                          <div className="flex items-center justify-center gap-2">
-                            <img src="clock.svg " className="w-10"></img>
-                            <h1 className="text-lg font-medium font-poppins">9 AM to 5 PM</h1>
-                          </div>  
-                </div>
-                <div className="flex items-center justify-center w-1/2 ">
+                <div className="flex flex-col items-center justify-center gap-3 md:justify-start md:items-start">
+                        <h1 className="text-3xl font-semibold tracking-wider text-white md:text-5xl font-WallingtonRegularPYK7">EPISTEMICON</h1>
+                        <h1 className="text-5xl font-semibold tracking-widest text-white font-WallingtonRegularPYK7">2K24</h1>
+                </div>      
+                        
+                      
+              </div>
+              <div className="grid place-items-center">
+              <div className="flex flex-col gap-4">
+                
 
-                </div>
-        </div>
+             
+
+                      
+                      <div className="flex items-center gap-2">
+                            <img src="calendar.svg" className="w-10 md:w-12"></img>
+                            <h1 className="text-white md:text-2xl font-poppins">SEPTEMBER 28 2024</h1>
+                      </div>
+                      <div className="flex items-center gap-2">
+                            <img src="clock.svg" className="w-10 md:w-12"></img>
+                            <h1 className="text-white md:text-2xl font-poppins">FROM: 09:00 AM TO 5:00 PM</h1>
+
+                      </div>
+                      <div className="flex items-center gap-1">
+                            <img src="locationsvg.svg" className="w-10 md:w-12"></img>
+                             <h1 className="text-white md:text-2xl font-poppins">Andhra Loyola Institute of Engineering and Technology</h1>
+                      </div>
+
+                      </div>
+              </div>
+        </footer>
     );
 }
 
