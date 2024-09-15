@@ -4,8 +4,8 @@ function Footer(){
               <div className="grid place-items-center rounded-2xl ">
 
                 <div className="flex flex-col items-center justify-center gap-3 md:justify-start md:items-start">
-                        <h1 className="text-3xl font-semibold tracking-wider text-white md:text-5xl font-WallingtonRegularPYK7">EPISTEMICON</h1>
-                        <h1 className="text-5xl font-semibold tracking-widest text-white font-WallingtonRegularPYK7">2K24</h1>
+                        <h1 className="text-4xl font-semibold tracking-wider text-white md:text-5xl font-WallingtonRegularPYK7">EPISTEMICON</h1>
+                        <h1 className="text-3xl font-semibold tracking-widest text-white md:text-5xl font-WallingtonRegularPYK7">2K24</h1>
                 </div>      
                         
                       
