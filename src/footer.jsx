@@ -11,7 +11,7 @@ function Footer(){
                       
               </div>
               <div className="grid place-items-center">
-              <div className="flex flex-col gap-4 ">
+              <div className="flex flex-col gap-3 ">
                 
 
              

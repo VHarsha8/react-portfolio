@@ -6,14 +6,12 @@ import { gsap } from 'gsap';
 function Epistemicon() {
     const slides = [
         {
-            url: 'Poster.jpg'
+            url: 'EPISTEMICONPOSTER.jpg'
         },
         {
             url: 'QUIZPOSTER.jpg'
         },
-        {
-            url: 'MODELEXPO.jpg'
-        },
+        
         
     ];
 
@@ -59,7 +57,7 @@ function Epistemicon() {
     }, [currentIndex]);
 
     return (
-        <div className='md:max-w-[1400px]  h-[400px] md:h-[680px] w-full m-auto  relative group pb-16 px-4 overflow-hidden'>
+        <div className='md:max-w-[1400px]  h-[400px] md:h-[580px] w-full m-auto   relative group pb-16 px-4 overflow-hidden'>
             {/* Slide container with snapping */}
             <div
                 ref={slideRef}

@@ -3,6 +3,8 @@ import Epistemicon from './Epistemicon';
 import EpistemiconHomePage from './EpistemiconHomePage';
 import Footer from './footer';
 import NavBar from './NavBar';
+import Tabs from './Tabs';
+import CseTabs from './CseTabs';
 
 
 
@@ -20,7 +22,8 @@ function App() {
       <EpistemiconHomePage />
       
          <Epistemicon />
-
+          <Tabs />
+          <CseTabs />
        
          <Footer />
 
