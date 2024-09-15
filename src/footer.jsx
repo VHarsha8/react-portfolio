@@ -1,6 +1,6 @@
 function Footer(){
     return(
-        <footer className="w-full h-[400px] px-10 py-6 md:py-0  bg-darkgreybackground md:gap-0 gap-6  md:w-full grid md:grid-cols-2 justify-center items-center ">
+        <footer className="w-full h-[400px] px-10 py-16 md:py-0  bg-darkgreybackground md:gap-0 gap-6  md:w-full grid md:grid-cols-2 justify-center items-center ">
               <div className="grid place-items-center rounded-2xl ">
 
                 <div className="flex flex-col items-center justify-center gap-3 md:justify-start md:items-start">
