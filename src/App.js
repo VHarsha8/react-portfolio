@@ -4,7 +4,7 @@ import Footer from './footer';
 import Tabs from './Tabs';
 import CseTabs from './CseTabs';
 import Navbar from './NavBar';
-import UpwardsComponent from './Epistemicon';
+import Epistemicon from './Epistemicon';
 
 
 
@@ -26,7 +26,7 @@ function App() {
     <Navbar />
     <EpistemiconHomePage />
       
-         <UpwardsComponent />
+         <Epistemicon />
           <Tabs />
           <CseTabs />
        

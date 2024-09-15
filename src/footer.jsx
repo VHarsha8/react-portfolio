@@ -11,24 +11,24 @@ function Footer(){
                       
               </div>
               <div className="grid place-items-center">
-              <div className="flex flex-col gap-3 ">
+              <div className="flex flex-col gap-4 ">
                 
 
              
 
                       
                       <div className="flex items-center gap-2">
-                            <img src="calendar28.svg" className="w-10 md:w-12"></img>
-                            <h1 className="text-white md:text-2xl font-poppins">SEPTEMBER 28 2024</h1>
+                            <img src="calendar28.svg" className="w-9 md:w-[40px]"></img>
+                            <h1 className="text-white md:text-[20px] font-poppins">SEPTEMBER 28 2024</h1>
                       </div>
                       <div className="flex items-center gap-2">
-                            <img src="clock.svg" className="w-10 md:w-12"></img>
-                            <h1 className="text-white md:text-2xl font-poppins">FROM: 09:00 AM TO 5:00 PM</h1>
+                            <img src="clock.svg" className="w-9 md:w-[40px]"></img>
+                            <h1 className="text-white md:text-[20px] font-poppins">From 09:00 AM to 5:00 PM</h1>
 
                       </div>
                       <div className="flex items-center gap-1">
-                            <img src="locationsvg.svg" className="w-10 md:w-12"></img>
-                             <h1 className="text-white md:text-2xl font-poppins">Andhra Loyola Institute of Engineering and Technology</h1>
+                            <img src="locationsvg.svg" className="w-9 md:w-[40px]"></img>
+                             <h1 className="text-white md:text-[20px] font-poppins">Andhra Loyola Institute of Engineering and Technology</h1>
                       </div>
 
                       </div>

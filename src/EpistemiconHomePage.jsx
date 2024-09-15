@@ -1,12 +1,6 @@
 import React, { useRef } from 'react';
 function EpistemiconHomePage() {
-    const upwardsRef = useRef(null); // Create a ref for the next component
-
-    const scrollToNextComponent = () => {
-        if (upwardsRef.current) {
-            upwardsRef.current.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
+   
     return(
         <div className="flex flex-col items-center justify-center w-full px-6  md:gap-0 gap-4 mx-auto h-[650px] md:h-screen">
              <div className="flex items-center justify-center mb-1">
@@ -28,7 +22,7 @@ function EpistemiconHomePage() {
                
 
             <div className="flex items-center justify-center mt-[20px]">
-            <a href="#upwards" onClick={scrollToNextComponent} className="flex items-center justify-center px-6 py-2 font-medium text-white bg-black rounded-lg font-poppins">
+            <a href="#upwards" className="flex items-center justify-center px-6 py-2 font-medium text-white bg-black rounded-lg font-poppins">
                     Learn More
             </a></div>  
             
