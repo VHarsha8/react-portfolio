@@ -26,10 +26,10 @@ function Footer(){
                             <h1 className="text-white md:text-[20px] font-poppins">From 09:00 AM to 5:00 PM</h1>
 
                       </div>
-                      <div className="flex items-center gap-1">
+                      <a href="https://maps.app.goo.gl/J6xyoMU2tPoFzV7y7" target="_blank"> <div className="flex items-center gap-1">
                             <img src="locationsvg.svg" className="w-9 md:w-[40px]"></img>
                              <h1 className="text-white md:text-[20px] font-poppins">Andhra Loyola Institute of Engineering and Technology</h1>
-                      </div>
+                      </div></a>
 
                       </div>
               </div>
