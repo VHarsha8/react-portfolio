@@ -11,14 +11,14 @@ function Footer(){
                       
               </div>
               <div className="grid place-items-center">
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col items-center justify-center gap-4 md:justify-start md:items-start">
                 
 
              
 
                       
                       <div className="flex items-center gap-2">
-                            <img src="calendar.svg" className="w-10 md:w-12"></img>
+                            <img src="calendar28.svg" className="w-10 md:w-12"></img>
                             <h1 className="text-white md:text-2xl font-poppins">SEPTEMBER 28 2024</h1>
                       </div>
                       <div className="flex items-center gap-2">
